@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="message_button">Click Me</string>
+    <string name="message_text">Hello</string>
+    <string name="split_btn">Split</string>
+    <string name="amt_msg">00.00</string>
+    <string name="guests_label">Guests</string>
+    <string name="bill_label">Bill</string>
+    <string name="billLabel">Bill</string>
+    <string name="guestsLabel">Guests</string>
+    <string name="clear_btn">Clear</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+
+    <EditText
+        android:id="@+id/topBillAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/totalGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/topBillAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/split_btn"
+        android:id="@+id/split_button"
+        android:layout_marginTop="31dp"
+        android:layout_alignLeft="@+id/totalGuest"
+        android:layout_below="@id/totalGuest"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clear_button"
+        android:layout_alignTop="@+id/split_button"
+        android:layout_toRightOf="@+id/split_button"
+        android:layout_toEndOf="@+id/split_button"
+        android:text="@string/clear_btn" />
+</RelativeLayout>
